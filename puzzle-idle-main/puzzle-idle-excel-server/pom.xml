@@ -7,19 +7,19 @@
 
   <parent>
     <groupId>puzzle</groupId>
-    <artifactId>puzzle-idle-build</artifactId>
+    <artifactId>puzzle-idle-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>puzzle-idle-build/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>puzzle-idle</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>puzzle-idle-excel-server</artifactId>
+  <packaging>jar</packaging>
 
-  <modules>
-    <module>puzzle-idle-bom</module>
-    <module>puzzle-idle-build</module>
-    <module>puzzle-idle-parent</module>
-    <module>puzzle-idle-main</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>

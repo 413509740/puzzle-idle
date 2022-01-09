@@ -18,7 +18,7 @@
     <parameter.spotless.skip>false</parameter.spotless.skip>
     <parameter.spotless.googleJavaFormat.version>1.7</parameter.spotless.googleJavaFormat.version>
     <parameter.spotless.googleJavaFormat.style>GOOGLE</parameter.spotless.googleJavaFormat.style>
-    <parameter.spotless.license>${project.basedir}/../../build/checkstyle/license-header.txt</parameter.spotless.license>
+    <parameter.spotless.license>${project.basedir}/../../checkstyle/license-header.txt</parameter.spotless.license>
   </properties>
 
   <build>
