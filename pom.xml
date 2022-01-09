@@ -9,16 +9,16 @@
     <groupId>puzzle</groupId>
     <artifactId>puzzle-idle-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>build/build-tool/pom.xml</relativePath>
+    <relativePath>puzzle-idle-build/pom.xml</relativePath>
   </parent>
 
   <artifactId>puzzle-idle</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>build/bom</module>
-    <module>build/build-tool</module>
-    <module>build/build-parent</module>
+    <module>puzzle-idle-bom</module>
+    <module>puzzle-idle-build</module>
+    <module>puzzle-idle-parent</module>
   </modules>
 
 </project>
