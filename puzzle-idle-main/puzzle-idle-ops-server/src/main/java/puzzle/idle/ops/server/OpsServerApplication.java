@@ -15,9 +15,11 @@
  */
 package puzzle.idle.ops.server;
 
+import magoko.ops.server.EnableOpsServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableOpsServer
 @SpringBootApplication
 public class OpsServerApplication {
   public static void main(String[] args) {

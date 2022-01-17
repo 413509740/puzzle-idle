@@ -15,9 +15,11 @@
  */
 package puzzle.idle.broker.server;
 
+import doodle.broker.server.EnableBrokerServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableBrokerServer
 @SpringBootApplication
 public class BrokerServerApplication {
   public static void main(String[] args) {

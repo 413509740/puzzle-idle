@@ -15,9 +15,11 @@
  */
 package puzzle.idle.console.server;
 
+import magoko.console.server.EnableConsoleServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableConsoleServer
 @SpringBootApplication
 public class ConsoleServerApplication {
   public static void main(String[] args) {
