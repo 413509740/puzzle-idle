@@ -17,8 +17,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <groupId>magoko</groupId>
+      <artifactId>magoko-excel-server-starter</artifactId>
     </dependency>
   </dependencies>
 

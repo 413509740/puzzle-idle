@@ -17,8 +17,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <groupId>doodle</groupId>
+      <artifactId>doodle-broker-server-starter</artifactId>
     </dependency>
   </dependencies>
 

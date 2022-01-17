@@ -15,9 +15,11 @@
  */
 package puzzle.idle.excel.server;
 
+import magoko.excel.server.EnableExcelServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnableExcelServer
 @SpringBootApplication
 public class ExcelServerApplication {
   public static void main(String[] args) {

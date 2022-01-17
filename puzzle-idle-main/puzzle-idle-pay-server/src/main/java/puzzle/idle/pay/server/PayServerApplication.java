@@ -15,9 +15,11 @@
  */
 package puzzle.idle.pay.server;
 
+import magoko.pay.server.EnablePayServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@EnablePayServer
 @SpringBootApplication
 public class PayServerApplication {
   public static void main(String[] args) {
