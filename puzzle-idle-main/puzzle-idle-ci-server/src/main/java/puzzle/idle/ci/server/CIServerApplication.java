@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package puzzle.idle.config.server;
+package puzzle.idle.ci.server;
 
-import magoko.config.server.EnableConfigServer;
+import doodle.ci.server.EnableCIServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableConfigServer
+@EnableCIServer
 @SpringBootApplication
-public class ConfigServerApplication {
+public class CIServerApplication {
   public static void main(String[] args) {
-    SpringApplication.run(ConfigServerApplication.class, args);
+    SpringApplication.run(CIServerApplication.class, args);
   }
 }

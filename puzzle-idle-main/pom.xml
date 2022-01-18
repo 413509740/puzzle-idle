@@ -18,6 +18,7 @@
   <modules>
     <module>puzzle-idle-game-server</module>
     <module>puzzle-idle-broker-server</module>
+    <module>puzzle-idle-ci-server</module>
     <module>puzzle-idle-config-server</module>
     <module>puzzle-idle-console-server</module>
     <module>puzzle-idle-excel-server</module>
