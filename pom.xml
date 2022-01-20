@@ -19,7 +19,6 @@
     <module>puzzle-idle-bom</module>
     <module>puzzle-idle-build</module>
     <module>puzzle-idle-parent</module>
-    <module>puzzle-idle-main</module>
   </modules>
 
 </project>
